@@ -1,0 +1,22 @@
+<h2>{{reportName}}</h2>
+
+<table style="width:100%;border: 1px solid black;  border-collapse: collapse;">
+    <tr style="color:blue; background-color:grey;  border-collapse: collapse;border: 1px solid black;">
+        <th style="border: 1px solid black;">{{column1}}</th>
+        <th style="border: 1px solid black;">{{column2}}</th>
+        <th style="border: 1px solid black;">{{column3}}</th>
+        <th style="border: 1px solid black;">{{column4}}</th>
+
+    </tr>
+
+    {{#values}}
+        <tr style="text-align: right;border: 1px solid black;  border-collapse: collapse;">
+            <td style="border: 1px solid black;">{{value1}}</td>
+            <td style="border: 1px solid black;">{{value2}}</td>
+            <td style="border: 1px solid black;">{{value3}}</td>
+            <td style="border: 1px solid black;">{{value4}}</td>
+        </tr>
+    {{/values}}
+
+</table>
+
